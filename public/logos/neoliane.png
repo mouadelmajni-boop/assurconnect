@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+<head>
+      <meta charset=utf-8>
+      <meta name="language" content="fr-FR"/>
+      <meta name="google" content="notranslate"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+      <meta property="og:title" content="Néoliane, votre assureur santé, prévoyance et risques divers" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.neoliane.fr" />
+      <meta property="og:image" content="https://s3.eu-west-1.amazonaws.com/www.neoliane.fr/assets/img/og-image.png" />
+      <meta property="og:description" content="Chez Néoliane Santé & Prévoyance, assurer votre santé et garantir votre sérénité au meilleur prix sont au cœur de nos préoccupations." />
+                  <title>404 - Néoliane Santé & Prévoyance</title>
+            <meta name="description" content="Chez Néoliane Santé & Prévoyance, assurer votre santé et garantir votre sérénité au meilleur prix sont au cœur de nos préoccupations.">
+                  <link rel="shortcut icon" href="/assets/images/favicon.png">
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+      <link href="/bower_components/font-awesome/css/font-awesome.css?v=1477324374"
+            rel="stylesheet" type="text/css">
+      <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css?v=1469461915"
+            rel="stylesheet" type="text/css">
+      <link href="/assets/css/neoliane.css?v=1767102396" rel="stylesheet"
+            type="text/css">
+      <!-- Chargement de la CMP Didomi -->
+      <script type="text/javascript">(function(){function i(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}else{setTimeout(function(){i(e)},5)}}}function e(n,o,r,f,s){function e(e,t,n,i){if(typeof n!=="function"){return}if(!window[o]){window[o]=[]}var a=false;if(s){a=s(e,i,n)}if(!a){window[o].push({command:e,version:t,callback:n,parameter:i})}}e.stub=true;e.stubVersion=2;function t(i){if(!window[n]||window[n].stub!==true){return}if(!i.data){return}var a=typeof i.data==="string";var e;try{e=a?JSON.parse(i.data):i.data}catch(t){return}if(e[r]){var o=e[r];window[n](o.command,o.version,function(e,t){var n={};n[f]={returnValue:e,success:t,callId:o.callId};if(i.source){i.source.postMessage(a?JSON.stringify(n):n,"*")}},o.parameter)}}if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");i("__tcfapiLocator")})();</script><script type="text/javascript">(function(){(function(e,i,o){var n=document.createElement("link");n.rel="preconnect";n.as="script";var t=document.createElement("link");t.rel="dns-prefetch";t.as="script";var r=document.createElement("script");r.id="spcloader";r.type="text/javascript";r["async"]=true;r.charset="utf-8";window.didomiConfig=window.didomiConfig||{};window.didomiConfig.sdkPath=window.didomiConfig.sdkPath||o||"https://sdk.privacy-center.org/";const d=window.didomiConfig.sdkPath;var a=d+e+"/loader.js?target_type=notice&target="+i;if(window.didomiConfig&&window.didomiConfig.user){var c=window.didomiConfig.user;var s=c.country;var f=c.region;if(s){a=a+"&country="+s;if(f){a=a+"&region="+f}}}n.href=d;t.href=d;r.src=a;var m=document.getElementsByTagName("script")[0];m.parentNode.insertBefore(n,m);m.parentNode.insertBefore(t,m);m.parentNode.insertBefore(r,m)})("dc7625e9-df46-437f-99dd-d95e3e3739f6","xdjMwMbq")})();</script>
+      <!-- Définition du mode Piano en fonction du consentement -->
+      <script type="text/javascript">
+      window.didomiOnReady = window.didomiOnReady || [];
+      window.didomiOnReady.push(function (Didomi) {
+            var defaultstatus = Didomi.getUserStatus().vendors.consent.enabled.includes("c:pianohybr-R3VKC2r4");
+            if (defaultstatus === true) {
+                  pa.consent.setMode("opt-in");
+            } else {
+                  if (pa.consent.getMode() == null || pa.consent.getMode() !== "opt-out") {
+                        pa.consent.setMode("essential");
+                  }
+            }
+      });
+      window.didomiEventListeners = window.didomiEventListeners || [];
+      window.didomiEventListeners.push({
+            event: 'consent.changed',
+            listener: function (context) {
+                  var pastatus = Didomi.getUserStatus().vendors.consent.enabled.includes("c:pianohybr-R3VKC2r4");
+                  if (pastatus === true) {
+                        pa.consent.setMode("opt-in");
+                  } else {
+                        if (pa.consent.getMode() == null || pa.consent.getMode() !== "opt-out") {
+                              pa.consent.setMode("essential");
+                        }
+                  }
+            }
+      });
+      </script>
+    <!-- Configuration du mode de consentement par défaut pour Piano -->
+    <script type="text/javascript">
+      window.pdl = window.pdl || {};
+	    window.pdl.requireConsent = true;
+	    window.pdl.consent = {
+	      defaultPreset: {
+		      PA: 'essential'
+	      }
+	    };
+    </script>
+    <!-- Chargement du script Piano -->
+    <script src="https://tag.aticdn.net/piano-analytics.js"></script>
+    <script type="text/javascript">
+	    pa.setConfigurations({ 
+        site: 636475, 
+        collectDomain: 'https://logs1412.xiti.com'
+	    }); 
+    </script>
+    <script src="/bower_components/jquery/dist/jquery.min.js?v=1693229950"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js?v=1469461915"></script>
+    <script src="/assets/js/script.js?v=1767102396"></script>
+</head>
+<body>
+<div id="mycontainer" class="container">
+    <div class="mid-header">
+    <a href="/" title="Accueil" rel="home" class="site-logo">
+                    <img id="logo" src="/assets/images/neoliane-sante-prevoyance.svg" alt="Accueil">
+            </a>
+
+    <ul class="pull-right hidden-xs nav-top">
+        <li style="margin-right: 2em"><a href="/faq">Aide / FAQ</a></li>
+        <li style="margin-right: 2em"><a href="/service-client">Service Client</a></li>
+        <li><a href="/espace-adherent" class="espace-adherent">Espace Adhérent</a></li>
+    </ul>
+</div>
+<nav class="navbar navbar-default no-marge-bot no-border">
+    <div class="container-fluid" id="containerMenu">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#myMenuMobile" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myMenuMobile">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Santé <span class="caret"></span></a>
+                    <ul class="dropdown-menu myDropdown drop300">
+                        <ul>
+                            <!--li><a href="/sante-individuelle" class="text-uppercase"><strong>Santé individuelle</strong></a></li-->
+                            <li><a href="/neoliane-pulse">Néoliane Pulse</a></li>
+                            <li><a href="/neoliane-performance">Néoliane Performance</a></li>
+                            <li><a href="/neoliane-quietude">Néoliane Quiétude</a></li>
+                            <li><a href="/neoliane-energik">Néoliane Énergik</a></li>
+                            <li><a href="/neoliane-optima">Néoliane Optima</a></li>
+                            <li><a href="/neoliane-plenitude">Néoliane Plénitude</a></li>
+                            <li><a href="/neoliane-dynamique">Néoliane Dynamique</a></li>
+                            <li><a href="/neoliane-hospisante">Néoliane HospiSanté</a></li>
+                            <li><a href="/neoliane-innov-sante">Néoliane Innov Santé</a></li>
+                            <li><a href="/neoliane-altosante">Néoliane AltoSanté</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Prévoyance <span class="caret"></span></a>
+                    <ul class="dropdown-menu myDropdown drop300">
+                        <ul>
+                            <!--li><a href="/neoliane-prevoyance" class="text-uppercase"><strong>Néoliane Prévoyance</strong></a></li-->
+                            <li><a href="/neoliane-dependance">Néoliane Dépendance</a></li>
+                            <li><a href="/neoliane-garantie-accidents-vie">Néoliane Protection GAV</a></li>
+                            <li><a href="/neoliane-ijh-capital-deces">Néoliane IJH/Capital décès</a></li>
+                            <li><a href="/neoliane-obseques">Néoliane Obsèques</a></li>
+                            <li><a href="/neoliane-tempo-deces">Néoliane Tempo Décès</a></li>
+                            <li><a href="/neoliane-multi-accidents">Néoliane Multi-Accidents</a></li>
+                            <li><a href="/neoliane-4en1">Néoliane Prévoyance 4 en 1</a></li>
+                            <li><a href="/neoliane-soutien-financier">Néoliane Soutien Financier</a></li>
+                            <li><a href="/neoliane-hospizen">Néoliane HospiZen</a></li>
+                            <li><a href="/neoliane-soutien-hospi">Néoliane Soutien Hospi</a></li>
+                            <li><a href="/neoliane-protection-maladies-redoutees">Néoliane Protection Maladies Redoutées</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Assurance de prêt <span class="caret"></span></a>
+                    <ul class="dropdown-menu myDropdown drop300">
+                        <ul>
+                            <li><a href="/neoliane-emprunteur">Néoliane Emprunteur</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Risques divers <span class="caret"></span></a>
+                    <ul class="dropdown-menu myDropdown drop300">
+                        <ul>
+                            <li><a href="/neoliane-soutien-juridique">Néoliane Soutien juridique</a></li>
+                            <li><a href="/neoliane-chienchat">Néoliane Chiens & Chats</a></li>
+                            <li><a href="/neoliane-foyerconnecte">Néoliane Foyer Connecté</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li><a href="https://extranet.neoliane.fr" class="dropdown-toggle" target="_blank">Extranet</a></li>
+                <li><a href="/devenez-partenaire" class="dropdown-toggle">Devenez partenaire</a></li>
+                <li class="none"><a href="/espace-adherent" class="dropdown-toggle">Espace Adhérent</a></li>
+                <li class="none"><a href="/service-client" class="dropdown-toggle">Service client</a></li>
+                <li class="none"><a href="/faq" class="dropdown-toggle">Aide / Faq</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav><div class="container no-pad bg-white">
+    </div>
+<div class="container">
+    <div class="row pad-left-100-no-sm pad-right-100-no-sm">
+        <div class="jumbotron ">
+            <h1>404</h1>
+            <p>Cette page n'existe pas ou n'existe plus.<br>Nous vous prions de nous excuser pour la gêne occasionnée.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+    <div class="container" id="containerFooter">
+        <div class="row">
+            <div class="col-xs-12 footerLine text-center">
+                <ul class="list-inline" id="listFooter">
+                    <li class="hidden-xs">Retrouvez aussi Néoliane sur :</li>
+                    <li><a target="_blank" title="Suivre l'actualité de Néoliane sur LinkedIn"  href="https://www.linkedin.com/company/5272100/">Linkedin</a></li>
+                    <li><a href="https://www.dailymotion.com/neoliane" title="Suivre l'actualité de Néoliane sur Dailymotion" target="_blank">Dailymotion</a></li>
+                    <li><a href="https://www.youtube.com/c/NeolianeFr" title="Suivre l'actualité de Néoliane sur Youtube" target="_blank">Youtube</a></li>
+                                    </ul>
+                <p style="margin:8px 0 0">Copyright © 2026 Neoliane.fr - <a href="/mentions-legales">Mentions légales</a> - <a href="/politique-de-confidentialite">Politique de confidentialité</a> </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+	pa.sendEvent('page.display', {
+		'page': '/wp-content/uploads/2021/01/logo-neoliane-sante-prevoyance.png'
+	});
+</script>
+</body>
+</html>
