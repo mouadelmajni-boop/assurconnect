@@ -12,7 +12,7 @@ const partners = [
     },
     {
         name: "Néoliane",
-        logoUrl: "/logos/neoliane.jpg",
+        logoUrl: "/logos/neoliane.png",
         fallbackText: "Néoliane",
     },
     {
@@ -22,7 +22,7 @@ const partners = [
     },
     {
         name: "Maxance",
-        logoUrl: "/logos/maxance.png",
+        logoUrl: "/logos/maxance.jpg",
         fallbackText: "Maxance",
     },
     {
