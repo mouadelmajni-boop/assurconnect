@@ -2,48 +2,48 @@
 const partners = [
     {
         name: "AXA",
-        logoUrl: "https://logo.clearbit.com/axa.com",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/1024px-AXA_Logo.svg.png",
         fallbackText: "AXA",
     },
     {
         name: "Allianz",
-        logoUrl: "https://logo.clearbit.com/allianz.com",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Allianz.svg/1024px-Allianz.svg.png",
         fallbackText: "Allianz",
     },
     {
         name: "Generali",
-        logoUrl: "https://logo.clearbit.com/generali.com",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Generali_logo_2016.svg/1024px-Generali_logo_2016.svg.png",
         fallbackText: "Generali",
     },
     {
         name: "Swiss Life",
-        logoUrl: "https://logo.clearbit.com/swisslife.com",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Swiss_Life_logo.svg/1024px-Swiss_Life_logo.svg.png",
         fallbackText: "Swiss Life",
     },
     {
         name: "Malakoff Humanis",
-        logoUrl: "https://logo.clearbit.com/malakoffhumanis.com",
+        logoUrl: "https://www.malakoffhumanis.com/medias/Malakoff-Humanis-logo.svg",
         fallbackText: "Malakoff Humanis",
     },
     {
-        name: "Solly Azar",
-        logoUrl: "https://logo.clearbit.com/sollyazar.com",
-        fallbackText: "Solly Azar",
+        name: "April",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/April_Logo_2022.svg/1024px-April_Logo_2022.svg.png",
+        fallbackText: "April",
     },
     {
         name: "Néoliane",
-        logoUrl: "https://logo.clearbit.com/neoliane.fr",
+        logoUrl: "https://www.neoliane.fr/wp-content/uploads/2021/06/logo_neoliane.png",
         fallbackText: "Néoliane",
     },
     {
         name: "ECA Assurances",
-        logoUrl: "https://logo.clearbit.com/eca-assurances.fr",
+        logoUrl: "https://www.eca-assurances.fr/assets/img/logo-eca.png",
         fallbackText: "ECA",
     },
     {
-        name: "AFPS",
-        logoUrl: "https://logo.clearbit.com/afps.fr",
-        fallbackText: "AFPS",
+        name: "Groupama",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Logo_Groupama_2016.svg/1024px-Logo_Groupama_2016.svg.png",
+        fallbackText: "Groupama",
     },
 ];
 
