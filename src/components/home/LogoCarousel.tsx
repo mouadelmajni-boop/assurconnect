@@ -2,48 +2,53 @@
 const partners = [
     {
         name: "AXA",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/1024px-AXA_Logo.svg.png",
+        logoUrl: "/logos/axa.png",
         fallbackText: "AXA",
     },
     {
-        name: "Allianz",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Allianz.svg/1024px-Allianz.svg.png",
-        fallbackText: "Allianz",
-    },
-    {
-        name: "Generali",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Generali_wordmark_logo.svg/1024px-Generali_wordmark_logo.png",
-        fallbackText: "Generali",
-    },
-    {
-        name: "Swiss Life",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Swiss_Life_logo.svg/1024px-Swiss_Life_logo.svg.png",
-        fallbackText: "Swiss Life",
-    },
-    {
-        name: "Malakoff Humanis",
-        logoUrl: "https://www.lecomparateurassurance.com/images/partenaires/malakoff-humanis.png",
-        fallbackText: "Malakoff Humanis",
-    },
-    {
-        name: "April",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/April_Logo_2022.svg/1024px-April_Logo_2022.svg.png",
-        fallbackText: "April",
-    },
-    {
-        name: "Groupama",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Groupama_logo.svg/1024px-Groupama_logo.svg.png",
-        fallbackText: "Groupama",
+        name: "Solly Azar",
+        logoUrl: "/logos/solly_azar.png",
+        fallbackText: "Solly Azar",
     },
     {
         name: "Néoliane",
-        logoUrl: "https://www.lecomparateurassurance.com/images/partenaires/neoliane.png",
+        logoUrl: "/logos/neoliane.png",
         fallbackText: "Néoliane",
     },
     {
-        name: "ECA Assurances",
-        logoUrl: "https://www.lecomparateurassurance.com/images/partenaires/eca.png",
-        fallbackText: "ECA",
+        name: "Cofidis",
+        logoUrl: "/logos/cofidis.png",
+        fallbackText: "Cofidis",
+    },
+    {
+        name: "Maxance",
+        logoUrl: "/logos/maxance.png",
+        fallbackText: "Maxance",
+    },
+    {
+        name: "AssuréO",
+        logoUrl: "/logos/assureo.png",
+        fallbackText: "AssuréO",
+    },
+    {
+        name: "Active Assurances",
+        logoUrl: "/logos/active_assurances.png",
+        fallbackText: "Active Assurances",
+    },
+    {
+        name: "April",
+        logoUrl: "/logos/april.png",
+        fallbackText: "April",
+    },
+    {
+        name: "Assu 2000",
+        logoUrl: "/logos/assu2000.png",
+        fallbackText: "Assu 2000",
+    },
+    {
+        name: "FMA Assurances",
+        logoUrl: "/logos/fma.png",
+        fallbackText: "FMA",
     },
 ];
 
