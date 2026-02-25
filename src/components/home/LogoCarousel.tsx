@@ -12,17 +12,17 @@ const partners = [
     },
     {
         name: "Generali",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Generali_logo_2016.svg/1024px-Generali_logo_2016.svg.png",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Generali_wordmark_logo.svg/1024px-Generali_wordmark_logo.png",
         fallbackText: "Generali",
     },
     {
         name: "Swiss Life",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Swiss_Life_logo.svg/1024px-Swiss_Life_logo.svg.png",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Swiss_Life_logo.svg/1024px-Swiss_Life_logo.svg.png",
         fallbackText: "Swiss Life",
     },
     {
         name: "Malakoff Humanis",
-        logoUrl: "https://www.malakoffhumanis.com/medias/Malakoff-Humanis-logo.svg",
+        logoUrl: "https://www.lecomparateurassurance.com/images/partenaires/malakoff-humanis.png",
         fallbackText: "Malakoff Humanis",
     },
     {
@@ -31,19 +31,19 @@ const partners = [
         fallbackText: "April",
     },
     {
+        name: "Groupama",
+        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Groupama_logo.svg/1024px-Groupama_logo.svg.png",
+        fallbackText: "Groupama",
+    },
+    {
         name: "Néoliane",
-        logoUrl: "https://www.neoliane.fr/wp-content/uploads/2021/06/logo_neoliane.png",
+        logoUrl: "https://www.lecomparateurassurance.com/images/partenaires/neoliane.png",
         fallbackText: "Néoliane",
     },
     {
         name: "ECA Assurances",
-        logoUrl: "https://www.eca-assurances.fr/assets/img/logo-eca.png",
+        logoUrl: "https://www.lecomparateurassurance.com/images/partenaires/eca.png",
         fallbackText: "ECA",
-    },
-    {
-        name: "Groupama",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Logo_Groupama_2016.svg/1024px-Logo_Groupama_2016.svg.png",
-        fallbackText: "Groupama",
     },
 ];
 
@@ -58,11 +58,11 @@ const LogoItem = ({ partner, index }: LogoItemProps) => {
             key={index}
             className="flex flex-col items-center justify-center mx-12 min-w-[160px] group transition-all duration-300"
         >
-            <div className="flex items-center justify-center h-16 w-40 opacity-40 grayscale group-hover:opacity-100 group-hover:grayscale-0 group-hover:scale-110 transition-all duration-500">
+            <div className="flex items-center justify-center h-16 w-40 opacity-100 group-hover:scale-110 transition-all duration-500">
                 <img
                     src={partner.logoUrl}
                     alt={partner.name}
-                    className="max-h-14 max-w-[140px] w-auto h-auto object-contain"
+                    className="max-h-12 max-w-[130px] w-auto h-auto object-contain"
                     onError={(e) => {
                         const target = e.currentTarget;
                         target.style.display = 'none';
@@ -78,7 +78,7 @@ const LogoItem = ({ partner, index }: LogoItemProps) => {
                     {partner.fallbackText}
                 </span>
             </div>
-            <div className="h-0.5 w-0 group-hover:w-3/4 bg-blue-400 transition-all duration-500 mt-2 opacity-50 rounded-full"></div>
+            <div className="h-0.5 w-0 group-hover:w-3/4 bg-emerald-400 transition-all duration-500 mt-2 opacity-100 rounded-full"></div>
         </div>
     );
 };
