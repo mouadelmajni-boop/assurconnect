@@ -12,12 +12,12 @@ const partners = [
     },
     {
         name: "Néoliane",
-        logoUrl: "/logos/neoliane.png",
+        logoUrl: "/logos/neoliane.jpg",
         fallbackText: "Néoliane",
     },
     {
         name: "Cofidis",
-        logoUrl: "/logos/cofidis.png",
+        logoUrl: "/logos/cofidis.jpg",
         fallbackText: "Cofidis",
     },
     {
@@ -32,7 +32,7 @@ const partners = [
     },
     {
         name: "Active Assurances",
-        logoUrl: "/logos/active_assurances.png",
+        logoUrl: "/logos/active_assurances.jpg",
         fallbackText: "Active Assurances",
     },
     {
