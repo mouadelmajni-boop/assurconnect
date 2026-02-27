@@ -5,6 +5,7 @@ import * as z from "zod";
 import { Briefcase, CheckCircle, ShieldCheck, Clock, ThumbsUp } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
+import { LogoCarousel } from "@/components/home/LogoCarousel";
 import { Button } from "@/components/ui/button";
 import {
     Card,
@@ -135,6 +136,8 @@ export default function ProInsurance() {
                     </div>
                 </div>
             </div>
+
+            <LogoCarousel />
 
             <div className="container mx-auto px-4 py-12">
                 <div className="max-w-3xl mx-auto">

@@ -69,19 +69,10 @@ const LogoItem = ({ partner, index }: LogoItemProps) => {
                     alt={partner.name}
                     className="max-h-12 max-w-[130px] w-auto h-auto object-contain"
                     onError={(e) => {
-                        const target = e.currentTarget;
-                        target.style.display = 'none';
-                        const fallback = target.nextElementSibling as HTMLElement;
-                        if (fallback) fallback.style.display = 'flex';
+                        // Just hide the image if it fails to load, no text fallback
+                        e.currentTarget.style.display = 'none';
                     }}
                 />
-                {/* Fallback text if logo fails to load */}
-                <span
-                    className="hidden text-xl font-black tracking-tighter text-slate-600"
-                    style={{ display: 'none' }}
-                >
-                    {partner.fallbackText}
-                </span>
             </div>
             <div className="h-0.5 w-0 group-hover:w-3/4 bg-emerald-400 transition-all duration-500 mt-2 opacity-100 rounded-full"></div>
         </div>
