@@ -69,8 +69,14 @@ const LogoItem = ({ partner, index }: LogoItemProps) => {
                     alt={partner.name}
                     className="max-h-12 max-w-[130px] w-auto h-auto object-contain"
                     onError={(e) => {
-                        // Just hide the image if it fails to load, no text fallback
-                        e.currentTarget.style.display = 'none';
+                        // Hide the entire container to prevent blank spaces
+                        const target = e.currentTarget;
+                        const container = target.closest('.group') as HTMLElement;
+                        if (container) {
+                            container.style.display = 'none';
+                        } else {
+                            target.style.display = 'none';
+                        }
                     }}
                 />
             </div>
